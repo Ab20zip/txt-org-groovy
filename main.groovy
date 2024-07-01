@@ -1,3 +1,5 @@
+#!/usr/bin/env groovy
+
 static def runScript(scriptName, String dir) {
     def script = new GroovyShell().parse(new File("scripts/${scriptName}.groovy"))
     script.organizeFiles(dir)
