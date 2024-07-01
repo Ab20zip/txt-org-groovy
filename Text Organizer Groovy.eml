@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="tika-app-2.9.2.jar" scope="PROVIDED">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/tika-app-2.9.2.jar!/"/>
+	</lib>
+	<lib name="commons-text-1.12.0.jar" scope="PROVIDED">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/commons-text-1.12.0.jar!/"/>
+	</lib>
+	<levels>
+		<level name="groovy-5.0.0-alpha-1" value="project"/>
+	</levels>
+</component>
